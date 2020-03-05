@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC8D060E235B886F00ED3917 /* HandGesture.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC8D060D235B886F00ED3917 /* HandGesture.mlmodel */; };
+		DC8D0616235B92DC00ED3917 /* twinkle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = DC8D0610235B92DC00ED3917 /* twinkle.scnp */; };
+		DC8D0617235B92DC00ED3917 /* twinkle.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8D0611235B92DC00ED3917 /* twinkle.png */; };
+		DC8D0618235B92DC00ED3917 /* dream.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8D0612235B92DC00ED3917 /* dream.png */; };
+		DC8D0619235B92DC00ED3917 /* snow.scnp in Resources */ = {isa = PBXBuildFile; fileRef = DC8D0613235B92DC00ED3917 /* snow.scnp */; };
+		DC8D061A235B92DC00ED3917 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8D0614235B92DC00ED3917 /* snow.png */; };
+		DC8D061B235B92DC00ED3917 /* dream.scnp in Resources */ = {isa = PBXBuildFile; fileRef = DC8D0615235B92DC00ED3917 /* dream.scnp */; };
+		DC8D061D235B947800ED3917 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D061C235B947800ED3917 /* Effect.swift */; };
+		DCE1EC4523599EBD00BEEADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1EC4423599EBD00BEEADD /* AppDelegate.swift */; };
+		DCE1EC4923599EBD00BEEADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1EC4823599EBD00BEEADD /* ViewController.swift */; };
+		DCE1EC4C23599EBD00BEEADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1EC4A23599EBD00BEEADD /* Main.storyboard */; };
+		DCE1EC4E23599EBE00BEEADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE1EC4D23599EBE00BEEADD /* Assets.xcassets */; };
+		DCE1EC5123599EBE00BEEADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1EC4F23599EBE00BEEADD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC8D060D235B886F00ED3917 /* HandGesture.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandGesture.mlmodel; sourceTree = "<group>"; };
+		DC8D0610235B92DC00ED3917 /* twinkle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = twinkle.scnp; sourceTree = "<group>"; };
+		DC8D0611235B92DC00ED3917 /* twinkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twinkle.png; sourceTree = "<group>"; };
+		DC8D0612235B92DC00ED3917 /* dream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dream.png; sourceTree = "<group>"; };
+		DC8D0613235B92DC00ED3917 /* snow.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = snow.scnp; sourceTree = "<group>"; };
+		DC8D0614235B92DC00ED3917 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		DC8D0615235B92DC00ED3917 /* dream.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = dream.scnp; sourceTree = "<group>"; };
+		DC8D061C235B947800ED3917 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		DCE1EC4123599EBD00BEEADD /* 手势识别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势识别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE1EC4423599EBD00BEEADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE1EC4823599EBD00BEEADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE1EC4B23599EBD00BEEADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE1EC4D23599EBE00BEEADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE1EC5023599EBE00BEEADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE1EC5223599EBE00BEEADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE1EC3E23599EBD00BEEADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC8D060F235B92DC00ED3917 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D0610235B92DC00ED3917 /* twinkle.scnp */,
+				DC8D0611235B92DC00ED3917 /* twinkle.png */,
+				DC8D0612235B92DC00ED3917 /* dream.png */,
+				DC8D0613235B92DC00ED3917 /* snow.scnp */,
+				DC8D0614235B92DC00ED3917 /* snow.png */,
+				DC8D0615235B92DC00ED3917 /* dream.scnp */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		DCE1EC3823599EBD00BEEADD = {
+			isa = PBXGroup;
+			children = (
+				DCE1EC4323599EBD00BEEADD /* GestureRecognizerWithARKit */,
+				DCE1EC4223599EBD00BEEADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE1EC4223599EBD00BEEADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1EC4123599EBD00BEEADD /* 手势识别.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE1EC4323599EBD00BEEADD /* GestureRecognizerWithARKit */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D060F235B92DC00ED3917 /* sources */,
+				DC8D060D235B886F00ED3917 /* HandGesture.mlmodel */,
+				DCE1EC4423599EBD00BEEADD /* AppDelegate.swift */,
+				DCE1EC4823599EBD00BEEADD /* ViewController.swift */,
+				DCE1EC4A23599EBD00BEEADD /* Main.storyboard */,
+				DCE1EC4D23599EBE00BEEADD /* Assets.xcassets */,
+				DCE1EC4F23599EBE00BEEADD /* LaunchScreen.storyboard */,
+				DCE1EC5223599EBE00BEEADD /* Info.plist */,
+				DC8D061C235B947800ED3917 /* Effect.swift */,
+			);
+			path = GestureRecognizerWithARKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE1EC4023599EBD00BEEADD /* GestureRecognizerWithARKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE1EC5523599EBE00BEEADD /* Build configuration list for PBXNativeTarget "GestureRecognizerWithARKit" */;
+			buildPhases = (
+				DCE1EC3D23599EBD00BEEADD /* Sources */,
+				DCE1EC3E23599EBD00BEEADD /* Frameworks */,
+				DCE1EC3F23599EBD00BEEADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureRecognizerWithARKit;
+			productName = FaceRecognierWithARKit;
+			productReference = DCE1EC4123599EBD00BEEADD /* 手势识别.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE1EC3923599EBD00BEEADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = FelixZhao;
+				TargetAttributes = {
+					DCE1EC4023599EBD00BEEADD = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = DCE1EC3C23599EBD00BEEADD /* Build configuration list for PBXProject "GestureRecognizerWithARKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE1EC3823599EBD00BEEADD;
+			productRefGroup = DCE1EC4223599EBD00BEEADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE1EC4023599EBD00BEEADD /* GestureRecognizerWithARKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE1EC3F23599EBD00BEEADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8D0616235B92DC00ED3917 /* twinkle.scnp in Resources */,
+				DC8D0619235B92DC00ED3917 /* snow.scnp in Resources */,
+				DC8D061B235B92DC00ED3917 /* dream.scnp in Resources */,
+				DC8D061A235B92DC00ED3917 /* snow.png in Resources */,
+				DC8D0618235B92DC00ED3917 /* dream.png in Resources */,
+				DCE1EC5123599EBE00BEEADD /* LaunchScreen.storyboard in Resources */,
+				DCE1EC4E23599EBE00BEEADD /* Assets.xcassets in Resources */,
+				DC8D0617235B92DC00ED3917 /* twinkle.png in Resources */,
+				DCE1EC4C23599EBD00BEEADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE1EC3D23599EBD00BEEADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8D061D235B947800ED3917 /* Effect.swift in Sources */,
+				DC8D060E235B886F00ED3917 /* HandGesture.mlmodel in Sources */,
+				DCE1EC4923599EBD00BEEADD /* ViewController.swift in Sources */,
+				DCE1EC4523599EBD00BEEADD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCE1EC4A23599EBD00BEEADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE1EC4B23599EBD00BEEADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCE1EC4F23599EBE00BEEADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE1EC5023599EBE00BEEADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE1EC5323599EBE00BEEADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE1EC5423599EBE00BEEADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE1EC5623599EBE00BEEADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6F5JL4P64;
+				INFOPLIST_FILE = GestureRecognizerWithARKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.swift.bedeveloper.cn.FaceRecognierWithARKit;
+				PRODUCT_NAME = "手势识别";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE1EC5723599EBE00BEEADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6F5JL4P64;
+				INFOPLIST_FILE = GestureRecognizerWithARKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.swift.bedeveloper.cn.FaceRecognierWithARKit;
+				PRODUCT_NAME = "手势识别";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE1EC3C23599EBD00BEEADD /* Build configuration list for PBXProject "GestureRecognizerWithARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE1EC5323599EBE00BEEADD /* Debug */,
+				DCE1EC5423599EBE00BEEADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE1EC5523599EBE00BEEADD /* Build configuration list for PBXNativeTarget "GestureRecognizerWithARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE1EC5623599EBE00BEEADD /* Debug */,
+				DCE1EC5723599EBE00BEEADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE1EC3923599EBD00BEEADD /* Project object */;
+}
